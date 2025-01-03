@@ -1,7 +1,7 @@
 import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 
-const options = {
+const OPTIONS = {
   chart: {
     type: "column",
   },
@@ -61,7 +61,7 @@ const options = {
 const App = () => {
   return (
     <>
-      <HighchartsReact highcharts={Highcharts} options={options} />
+      <HighchartsReact highcharts={Highcharts} options={OPTIONS} />
     </>
   );
 };
